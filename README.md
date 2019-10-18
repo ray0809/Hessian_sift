@@ -7,7 +7,7 @@ original from : [hesaff](https://github.com/perdoch/hesaff)
 Makefile(linux, opencv3.2)
 ```
 all: *.cpp
-	g++ -O3 -Wall -o hesaff pyramid.cpp affine.cpp siftdesc.cpp helpers.cpp hesaff.cpp `pkg-config opencv4 --cflags --libs` -lrt
+	g++ -O3 -Wall -o hesaff pyramid.cpp affine.cpp siftdesc.cpp helpers.cpp hesaff.cpp `pkg-config opencv --cflags --libs` -lrt
 
 ```
 Makefile(mac, opencv4.1)
